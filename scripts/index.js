@@ -22,4 +22,4 @@ function requestAdvice() {
   });
 }
 
-requestAdvice();
+// requestAdvice();
