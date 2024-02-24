@@ -2,8 +2,8 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-.change-advice {
-  box-shadow: 10px 10px 10px white;
+.change-advice:hover {
+  filter: drop-shadow(0 0 10px hsl(170, 30%, 40%));
 }
 
 .divider-container {
