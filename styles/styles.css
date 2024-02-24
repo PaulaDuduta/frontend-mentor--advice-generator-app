@@ -1,0 +1,17 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.change-advice {
+  box-shadow: 10px 10px 10px white;
+}
+
+.divider-container {
+  background: center no-repeat url('../images/pattern-divider-mobile.svg');
+}
+
+@media screen and (min-width: 768px) {
+  .divider-container {
+    background: center no-repeat url('../images/pattern-divider-desktop.svg');
+  }
+}

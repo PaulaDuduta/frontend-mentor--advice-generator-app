@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  > <!-- displays site properly based on user's device -->
+
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="./images/favicon-32x32.png"
+  >
+
+  <link
+    href="../styles/output.css"
+    rel="stylesheet"
+  >
+
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+
+  <title>Frontend Mentor | Advice generator app</title>
+
+</head>
+
+<body class="bg-neutral-dark-blue flex items-center justify-center min-h-screen ">
+  <main class="bg-neutral-dark-grayish-blue min-h-60 max-w-96 rounded-lg relative shadow-2xl shadow-neutral-900">
+    <div class="advice-container py-6 px-8">
+      <header class="text-center text-primary-neon-green">
+        <span
+          class="font-mono"
+          id="advice-num"
+        ></span>
+      </header>
+
+      <section class="flex justify-center items-center flex-col">
+        <p
+          id="advice-text"
+          class="text-primary-light-cyan text-center text-2xl font-semibold font-sans"
+        >=</p>
+        <span class="divider-container w-full h-6 my-5"></span>
+      </section>
+
+      <div
+        id="change-advice-btn"
+        class="change-advice absolute -bottom-6 left-1/2 transform -translate-x-1/2"
+      >
+        <button
+          type="button"
+          class="change-advice rounded-full bg-primary-neon-green w-14 h-14 flex justify-center items-center"
+          title="Roll the dice, for another advice"
+        >
+          <span class="size-6">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M20 0H4a4.005 4.005 0 0 0-4 4v16a4.005 4.005 0 0 0 4 4h16a4.005 4.005 0 0 0 4-4V4a4.005 4.005 0 0 0-4-4ZM7.5 18a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm0-9a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm4.5 4.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm4.5 4.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm0-9a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Z"
+                fill="#202733"
+              />
+            </svg>
+          </span>
+        </button>
+      </div>
+    </div>
+  </main>
+
+  <script src="../scripts/index.js"></script>
+</body>
+
+</html>
